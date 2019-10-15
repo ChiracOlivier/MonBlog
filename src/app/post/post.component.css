@@ -1,0 +1,14 @@
+.exception1 {
+  font-width: bold;
+  font-family: "Arial Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+
+.exception2 {
+  float: right;
+}
+
+.btn-success {
+  margin-right: 3px;
+}
+

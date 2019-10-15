@@ -1,10 +1,10 @@
 <li [ngClass]="{'list-group-item': true,
-                 'list-group-item-success': appareilStatus==='allumé',
-                  'list-group-item-danger': appareilStatus==='éteint'} ">
+                 'list-group-item-success': potLoveIts>0,
+                  'list-group-item-danger': potLoveIts<0} ">
 
   <div>
-  <h3>{{potTitle}}</h3>
-  <span>{{potCreateAt | date : 'short'| uppercase}}</span>
+  <span class="exception1">{{potTitle}}</span>
+  <span class="exception2">{{potCreateAt | date : 'dd/mm/yyyy, hh:mm'| uppercase}}</span>
    </div>
   <div>
     <p>{{potContent}}</p>

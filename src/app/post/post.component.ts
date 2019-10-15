@@ -17,11 +17,11 @@ export class PostComponent implements OnInit {
   ngOnInit() {
   }
 
-  onAdd(){
-
+  onAdd() {
+    this.potLoveIts++;
   }
 
-  onRemove(){
-
+  onRemove() {
+    this.potLoveIts--;
   }
 }
