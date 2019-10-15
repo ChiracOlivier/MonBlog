@@ -1,0 +1,16 @@
+<li [ngClass]="{'list-group-item': true,
+                 'list-group-item-success': appareilStatus==='allumé',
+                  'list-group-item-danger': appareilStatus==='éteint'} ">
+
+  <div>
+  <h3>{{potTitle}}</h3>
+  <span>{{potCreateAt | date : 'short'| uppercase}}</span>
+   </div>
+  <div>
+    <p>{{potContent}}</p>
+  </div>
+  <div>
+    <button class="btn btn-success" (click)="onAdd()">Love it</button>
+    <button class="btn btn-danger" (click)="onRemove()">Don't love it</button>
+  </div>
+</li>
