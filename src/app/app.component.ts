@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Post} from './Post';
+import {PostListItem} from './PostListItem';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +8,10 @@ import {Post} from './Post';
 })
 export class AppComponent {
 
-  post1 = new Post(1);
-  post2 = new Post(2);
-  post3 = new Post(3);
-  posts: Array<Post> = [this.post1, this.post2, this.post3];
+  post1 = new PostListItem(1);
+  post2 = new PostListItem(2);
+  post3 = new PostListItem(3);
+  posts: Array<PostListItem> = [this.post1, this.post2, this.post3];
 
 }
 

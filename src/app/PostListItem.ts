@@ -1,6 +1,6 @@
 
 
-export class Post {
+export class PostListItem {
   get title(): string {
     return this.tiTle;
   }
