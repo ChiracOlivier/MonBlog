@@ -5,7 +5,7 @@ import {Component, Input, OnInit} from '@angular/core';
   templateUrl: './PostListItem.component.html',
   styleUrls: ['./post.component.css']
 })
-export class PostComponent implements OnInit {
+export class PostListItemComponent implements OnInit {
 
   @Input() potTitle: string;
   @Input() potCreateAt: Date;
