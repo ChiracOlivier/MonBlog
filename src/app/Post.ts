@@ -22,9 +22,9 @@ export class Post {
 
   constructor(i: number) {
     if(i === 1) {
-      this.tiTle = 'Mon 1er post';
+      this.tiTle = 'Mon 1er PostListItem';
     } else {
-      this.tiTle = 'Mon ' + i + ' ème post';
+      this.tiTle = 'Mon ' + i + ' ème PostListItem';
     }
     this.conTent = 'Salut à tous et à toutes, soyez les bienvenus(es) sur mon blog en ce jour!!! ';
     this.loveits = 0;
