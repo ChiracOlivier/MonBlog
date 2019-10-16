@@ -3,7 +3,7 @@ import {Post} from './Post';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl: './PostList.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
