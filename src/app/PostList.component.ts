@@ -6,7 +6,7 @@ import {PostListItem} from './PostListItem';
   templateUrl: './PostList.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class PostListComponent {
 
   post1 = new PostListItem(1);
   post2 = new PostListItem(2);
