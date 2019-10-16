@@ -4,7 +4,7 @@ import {PostListItem} from './PostListItem';
 @Component({
   selector: 'app-root',
   templateUrl: './PostList.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./PostList.component.css']
 })
 export class PostListComponent {
 
