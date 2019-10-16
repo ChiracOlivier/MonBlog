@@ -15,4 +15,4 @@ import { PostListItemComponent } from './PostListItem/PostListItem.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class PostListModule { }
